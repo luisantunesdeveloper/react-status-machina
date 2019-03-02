@@ -3,7 +3,7 @@
 import test from 'tape';
 import { StatusMachinaContext } from '../lib/context';
 
-test('context is defined', t => {
+test('context', t => {
   t.isNot(
     StatusMachinaContext,
     undefined,
